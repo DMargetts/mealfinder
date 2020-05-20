@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 1.3em;
+}
+.foodItem {
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f0;
+  box-shadow: 2px 2px 5px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+.foodItem img:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+}
